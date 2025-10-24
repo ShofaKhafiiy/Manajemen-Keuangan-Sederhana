@@ -20,7 +20,9 @@ public class ManajemenKeuangan {
 
         saldo = pemasukan - pengeluaran;
 
-        display(pemasukan, pengeluaran, saldo);
+        //hallo
+
+        display(nama,pemasukan, pengeluaran, saldo);
 
         logic(saldo, pemasukan, pengeluaran); // menambhakan 2 parameter yaitu pemasukan dan pengeluaran untuk menghitung rata rata pengeluaran uang
 
@@ -38,7 +40,7 @@ public class ManajemenKeuangan {
             System.out.println("Pengeluaran melebihi pemasukan. Perlu evaluasi!");
         }
 
-        double persenPengeluaran = (pengeluaran / pemasukan) * 100;
+
 
         System.out.printf("Pengeluaran Anda adalah %.2f%% dari pemasukan.%n", persenPengeluaran);
 
@@ -52,7 +54,7 @@ public class ManajemenKeuangan {
         }
     }
 
-    private static void display(double pemasukan, double pengeluaran, double saldo) {
+    private static void display(String nama,double pemasukan, double pengeluaran, double saldo) {
         System.out.println("\n--- Ringkasan Keuangan ---");
         System.out.println("Pemasukan: Rp " + pemasukan);
         System.out.println("Pengeluaran: Rp " + pengeluaran);
