@@ -40,7 +40,7 @@ public class ManajemenKeuangan {
             System.out.println("Pengeluaran melebihi pemasukan. Perlu evaluasi!");
         }
 
-
+        double persenPengeluaran = (pengeluaran / pemasukan) * 100;
 
         System.out.printf("Pengeluaran Anda adalah %.2f%% dari pemasukan.%n", persenPengeluaran);
 
