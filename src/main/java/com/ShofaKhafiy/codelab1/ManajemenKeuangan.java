@@ -54,6 +54,8 @@ public class ManajemenKeuangan {
         }
     }
 
+    //Hallo guys
+
     private static void display(String nama,double pemasukan, double pengeluaran, double saldo) {
         System.out.println("\n--- Ringkasan Keuangan ---");
         System.out.println("Pemasukan: Rp " + pemasukan);
